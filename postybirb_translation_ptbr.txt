@@ -1,0 +1,1204 @@
+PostyBirb Translation Guide
+
+Each text translation that occurs in PostyBirb is in this file.
+Please put the relevant translation in the translation field. (Internal field should be ignored)
+Please specify the language it is being translated to.
+
+LANGUAGE: <Language being translated to>
+TRANSLATOR: <Person to be credited>
+
+PLEASE UNDERSTAND WHAT THE FIELDS MEAN
+
+Internal: Just ignore this field. I use this for mapping it to the final translation file.
+Context: Just some context for translators since some people have been confused about the purpose/context of the text. You do not need to translate this field.
+Translate Me: The text you are translating.
+Translated: The actual translation of Translate Me.
+
+DO NOT TRANSLATE TEXT IN BRACKETS SUCH AS {{website}} or {{value}}
+-----------------------------------------------------------------------
+
+{
+  "Internal": "login-profile-d1",
+  "Translate Me": "O Perfil de Login permite que um usuário gerencie e agrupe suas contas.",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Additional Files",
+  "Context": "Header for a section where users add additional files to a submission form",
+  "Translate Me": "Arquivos Adicionais",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Adult",
+  "Context": "A submission rating. Meaning explicit content or something you wouldn't consider SFW",
+  "Translate Me": "Adulto",  (In Portuguese it seems incomplete, but it is right.)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Adult Themes",
+  "Translate Me": "Conteúdo Adulto", ("Temas Adultos" can be used as well, but it doesn't seem right
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "All Ages",
+  "Context": "Safe for all ages (found in Pixiv additional options)",
+  "Translate Me": "Todas as Idades", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Allow Commercial Uses",
+  "Translate Me": "Permitir uso Comercial",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Allow Community Tags",
+  "Context": "A checkbox option (Pixiv)", (I did not understand the context correctly, but the translation and the equivalent in Portuguese)
+  "Translate Me": "Permitir Tags da Comunidade", (Term "Tag", In Portuguese it has a translation but it is not used in online terms, its translation refers, for example: Validity of Products, Or price of clothes)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Allow Modifications",
+  "Translate Me": "Permitir Modificações", (In Portuguese it is common to use words with (~) or (ç), "I don't know, but (ç) can cause some error in terms of programming") (Was that just a curiosity? I don't even know)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Apply Group",
+  "Translate Me": "Aplicar Grupo",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Authentication Failed",
+  "Context": "Message shown when unable to authenticate a website",
+  "Translate Me": "Falha na Autenticação",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Authorize",
+  "Translate Me": "Autorizar", (If this refers to a User giving permission for something like accessing an account, this is correct. However, it is stated that it was authorized as a payment would be correct "Autorizado")
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Block Guests",
+  "Context": "A checkbox option (Inkbunny)",
+  "Translate Me": "Bloquear Convidados", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Blog",
+  "Translate Me": "Blog", (Ironically, there is no term for this in Portuguese)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Bulk",
+  "Context": "A mode indicator for editing forms in bulk, rather than single (subject to change in the future)",
+  "Translate Me": "Massa", (I've never seen this term "Bulk", but from what I've seen it refers to editing multiple things at once, like Editing the same tags, and characters in InkBunny, or e621, in one tab at once. The term "Massa" can be used or in the case "Edição em Massa")
+  "Translated": "DeltaAlpha0" (it would be more right if that is so and of course, you can send a message if my interpretation is wrong)
+}
+
+{
+  "Internal": "Website Agreement",
+  "Translate Me": "Ao utilizar PostyBirb, você esta concordando com os Termos de Serviço e Regras dos sites que você esta postando. Você é responsável por tudo que postar.", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Cancel",
+  "Translate Me": "Cancelar", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Cancel All",
+  "Translate Me": "Cancelar Tudo",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Category",
+  "Context": "Header for website options that can be put into categories (e.g. FurAffinity)",
+  "Translate Me": "Categorias",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Change File",
+  "Translate Me": "Trocar Arquivo", (You can use " Mudar Anexo / Change Attachment ", but that and taste to taste, both are right
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Changelog",
+  "Translate Me": "Changelog / Relatorio", (There is no translation of this term into Portuguese, the closest would be a "Relatorio / Changelog", which shows in detail some event or action)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Changes only apply after saving",
+  "Translate Me": "As Alterações so são aplicadas após salvar", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Charge Patrons",
+  "Context": "A checkbox option for Patreon (whether to charge patrons or not)",
+  "Translate Me": "Trocar Patrons / Gerenciar Patreons", (I don't think it is 100% correct, if the English word is "Charge Patreon" in the case "Charge" it would be "switch" or "Cost" in Portuguese) (The term "Gerenciar" refers to managing something, such as a person, cost, or content)
+  "Translated": "DeltaAlpha0" 
+}
+
+{
+  "Internal": "Clear",
+  "Context": "Clear form",
+  "Translate Me": "Limpar", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Clear Submission Data",
+  "Translate Me": "Limpar Dados de Envio",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Close",
+  "Translate Me": "Fechar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Code",
+  "Translate Me": "Código", (Code refers to 2 factors or security use in Portuguese and "Código". If it is due to a program error, or something like that, the "code" can be used normally, both to facilitate the resolution of the problem.)
+  "Translated": "DeltaAlpha0" (Anything can consult me, but the exact translation would be "Código")
+}
+
+{
+  "Internal": "Combine With Default",
+  "Translate Me": "Combinar com o Padrão", (In Portuguese this does not make much sense, if, it refers to putting something to a standard established by the user of the application such as the message being written on social networks and other links, it would be better to use "Utilizar a Formatação Padrão"/"Use Standard Formatting")
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Comment Permissions",
+  "Translate Me": "Gerenciar Permissões dos Comentários / Permissões dos Comentários", (The use of the term "Gerenciar" refers to someone or something, to manage something, in this case the permissions of the comments. But you can use "Permissões dos Comentários"
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "login-profile-d3",
+  "Translate Me": "Normalmente utilizado para usuarios que possuem duas ou mais contas de um mesmo site", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Content",
+  "Translate Me": "Conteúdo", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Copy",
+  "Translate Me": "Copiar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Copy Submission",
+  "Translate Me": "Copiar Submission / Copiar Documento", (In Portuguese there is no exact translation for Submission, usually those who use the term in English, the translation closest to it would be "Submissão", Which refers to a person who is required to obey, or "Envio" the word alone means send)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Create Journal",
+  "Translate Me": "Criar Jornal / Criar Diário / Criar Journal", (The 3 are right. "Journal" in Portuguese means both words, however, Jornal and Journal(English) are more common to use)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Create New Login Profile",
+  "Translate Me": "Criar um Novo Perfil de Login",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Create New Submission",
+  "Translate Me": "Criar uma nova submission / Enviar uma novo documento", (Documento, can be a good word for Submission, the same refers to a Document, which can be text, photo or video)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Create Submission",
+  "Translate Me": "Criar uma Submission / Criar um Documento",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Create Submission From Clipboard",
+  "Translate Me": "A criação da submission foi copiado para área de transferência / A criação do documento foi copiado para área de transferência ",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "login-profile-create-text",
+  "Translate Me": "Crie um novo perfil de login para gerenciar a conta e grupos.", ("de login" It is not necessary, but it makes it clearer)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "landing-page-create-journal-header",
+  "Translate Me": "Criar e editar um Jornal/Status  / Criar e Editar um Journal/Status.", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "landing-page-create-info-submission",
+  "Translate Me": "Crie e edite um novo documento escolhendo um arquivo, ou copiando de sua área de transferência, ou soltando os arquivos no PostyBirb.",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "landing-page-create-template-description",
+  "Translate Me": "Crie, Atualize, e gerencie os modelos dos documentos, que podem ser aplicados.",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Critique",
+  "Context": "A checkbox for website options",
+  "Translate Me": "Crítica", (The meaning of "Crítica", is Critique, as a game critic, or film)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Website Options Tooltip",
+  "Translate Me": "Personalize opções específicas do site, e substitua tags e descrições padrões",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Data",
+  "Translate Me": "Data / Dados", (If you are referring to calendar days, and literally Date, Now if you are referring to search data, "Dados" can be used)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Default Description",
+  "Context": "Generic description used by all websites unless changed elsewhere",
+  "Translate Me": "Descrição Padrão",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Default Tags",
+  "Context": "Generic tags used by all websites unless changes elsewhere",
+  "Translate Me": "Tags Padrão",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Delete",
+  "Translate Me": "Deletar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Description",
+  "Translate Me": "Descrição",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Description Template",
+  "Translate Me": "Modelo de descrição / Template de descrição", ("Template" can also be used for this type of thing)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Disable Comments",
+  "Translate Me": "Desativar comentários",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Draft",
+  "Translate Me": "Rascunho",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Duplicate",
+  "Translate Me": "Duplicada", (If referring to repeated content as the same Document or Art, it would be better to use "Conteúdo Duplicado"
+  "Translated": "DeltaAlpha0"  (Portuguese and a little confused can ask me on twitter or call me on discord: Delta Alpha#0001)
+}
+
+{
+  "Internal": "Edit",
+  "Translate Me": "Editar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Edit Multiple Submissions",
+  "Translate Me": "Editar múltiplos Documentos / Editar múltiplas Submissions",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "landing-page-edit-multiple-description",
+  "Translate Me": "Edite um ou mais documentos de um de cada vez.",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Empty",
+  "Translate Me": "Vazio",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Empty Queue When A Post Fails",
+  "Translate Me": "Esvaziar a fila quando uma postagem falha", (I did not understand the context correctly, but this would be an error or warning message, asking to empty your queue, when a post fails)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Everyone",
+  "Translate Me": "Todos / Todo Mundo", (In Portuguese this word has two meanings, the term "Todos" refers to all, as I want all sweets. is "Todo Mundo" who is like Discord's @everyone)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Explicit Text",
+  "Translate Me": "Texto Explícito",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Extreme",
+  "Context": "A submission rating. Refers to adult and anything that could be considered offensive",
+  "Translate Me": "Extreme / Extremo", (Both can be used, Extremo which is the translation of extreme),
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Failed",
+  "Translate Me": "Falha / Falhou", (The use of the term "Falha" refers to a failure, such as when sending an email and an error occurs in sending.failed can be used when an error occurs, both are correct but Portuguese is full of rules and accents)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Feature",
+  "Translate Me": "Característica / Novidade", ("Feature" in Portuguese can mean characteristic about something like a server or about a game, How can it mean a new thing as a new update, or benefit)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Filter",
+  "Translate Me": "Filtro",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Folder",
+  "Translate Me": "Pasta",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Friends Only",
+  "Context": "A checkbox option (Inkbunny)",
+  "Translate Me": "Somente Amigos",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "From Clipboard",
+  "Translate Me": "Da Àrea de Transferência",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Gender",
+  "Context": "FurAffinity Option",
+  "Translate Me": "Gênero",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "General",
+  "Context": "A submission rating. Refers to anything SFW.",
+  "Translate Me": "Geral",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Gore/Violence",
+  "Context": "Pixiv category option",
+  "Translate Me": "Gore/Violência / Sangue/Violência", (There is no real translation for "Gore", it can be translated to "Sangue" meaning Blood) (There is another one, but it is very unusual)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Group Only",
+  "Context": "SoFurry option",
+  "Translate Me": "Somente Grupo",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Help Advertise PostyBirb",
+  "Translate Me": "Ajude-nos a anunciar o PostyBirb / Ajude-nos a divulgar o PostyBirb", (The term "Advertise" can mean two things in Portuguese, it can be "Anunciar" which is equivalent to promoting via advertisements. There is "Divulgar", which is to promote in a way that is not via advertisements but people making multiple people know)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Help Translate",
+  "Context": "Help Translate",
+  "Translate Me": "Ajude-nos a Traduzir", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Hidden",
+  "Context": "SoFurry option",
+  "Translate Me": "Escondido / Esconder / Oculto / Ocultar", ("Escondido" and more for something hidden, like you hiding a toy from a child. "Esconder" is similar to the previous one, but it would be the action of the word, usually used to talk about oneself. "Oculto" can be used for what nobody knows where it is, as if it never existed. is "Ocultar" and equivalent to hide something that shouldn't be revealed)
+  "Translated": "DeltaAlpha0" (In Portuguese there are many meanings for a word, which causes this mess. You can call me on Twitter or Discord if you have any questions) Delta Alpha#0001(Discord)
+}
+
+{
+  "Internal": "Hide Queue",
+  "Translate Me": "Ocultar Fila", (In this case it has a sentence context so there is a possible translation)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Ignore Thumbnail For Websites",
+  "Translate Me": "Ignorar miniaturas para sites / Ignorar miniaturas de sites", (In Portuguese the term "Para" has a sense of something for someone, like giving flowers "para" someone, literal meaning for "for" or "to". The term "de" is equivalent to ignoring website thumbnails)
+  "Translated": "DeltaAlpha0" (I particularly find the second best, and most common)
+}
+
+{
+  "Internal": "Ignored tag",
+  "Translate Me": "Ignorar tag duplicada: {{tag}}",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Import from existing Template",
+  "Translate Me": "Importar de um modelo existente / Importar de um template existente", (Both are correct, I am used to using the term Template)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "In minutes",
+  "Context": "Denotes that the form field is counted in minutes (1 = 1 minute)",
+  "Translate Me": "Em Minutos", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Incomplete submission",
+  "Translate Me": "Documento imcompleto / Submission imcompleta", (Both are correct, I already said in some line about it, I don't even remember anymore)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Journal/Status",
+  "Translate Me": "Journal/Status / Jornal/Status", (Are both correct, and isn't that repeated? I remember translating this)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "License",
+  "Translate Me": "Licença / Permissão", (The term "Licença" can be used freely as an opinion or a reimagination about something, or even do whatever you want with it. "Permissão" is equivalent to asking permission from a user or showing permission)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Load Template",
+  "Translate Me": "Carregar Modelo / Carregar Template",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Logged In",
+  "Translate Me": "Logado em / Logado no site:", (the term "em" is equivalent to one, example: "Você esta Logado em e621.net" / "You are logged in to e621.net") (Logged in to the site, and a way of speaking that user X, is logged in to X site. Example: DeltaAlpha0 ésta logado no site SoFurry / "DeltaAlpha0 is logged on the SoFurry website")
+  "Translated": "DeltaAlpha0" (The term "In" means many terms in Portuguese.)
+}
+
+{
+  "Internal": "Login",
+  "Translate Me": "Login / Conecte-se", (It is very common to use the English term "Login", but both are correct)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Login Profile",
+  "Translate Me": "Perfil de Login", (In this case, you cannot use "Conecte-se" after no action)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Login Profiles",
+  "Translate Me": "Perfis de Login",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Logout",
+  "Translate Me": "Sair",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Logs",
+  "Translate Me": "Histórico",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Lots",
+  "Translate Me": "Abundância", (Do you refer and something that has many things right?)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Make Default",
+  "Translate Me": "Tornar Padrão",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Manage",
+  "Translate Me": "Gerenciar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Manage Tag Groups",
+  "Translate Me": "Gerenciar grupos de tags",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Manage Templates",
+  "Translate Me": "Gerenciar modelos / Gerenciar templates",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Mature",
+  "Context": "A submission rating. Refers to things not quite SFW, but not necessarily explicit in nature.",
+  "Translate Me": "Conteúdo Maduro / Conteúdo Questionavel / Conteudo Adulto", (The use of the term "Mature / Maduro" is unusual, I prefer to use the term you have in e621 which is "questionable / questionavel") 
+  "Translated": "DeltaAlpha0" (Insert the term Adult because "Maduro" and extremely unusual in Portuguese, it is usually used "Maduro", to tell someone that they already know how to do things themselves, or if a fruit is good to eat)
+}
+
+{
+  "Internal": "Mature Category",
+  "Context": "A website option header",
+  "Translate Me": "Categoria Madura / Categoria questionavel / Categoria Adulta", (Same thing as above, but both are correct)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Mature Content",
+  "Context": "A website option header",
+  "Translate Me": "Conteúdo Maduro / Conteudo Adulto", (This term in Portuguese refers to adult content)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Media",
+  "Translate Me": "Média", (If you are referring, for example, to the average of a school note, the correct use is "Média", Now if you are using it in another way please communicate, because I do not have the context of the sentence. However the translation is accurate)
+  "Translated": "DeltaAlpha0" (Portuguese and a little confused. however Média is the translation of Media directly)
+}
+
+{
+  "Internal": "Minimum Pledge",
+  "Translate Me": "Promessa Mínima / Empréstimo mínimo / Investimento", (The "Promessa Mínima" is equivalent to a contract, where a user deposits X amount of money, for someone. The "Empréstimo", and when a user X makes a contract with Company X, the user receives X amount of money, and in X term he has to deliver the money I take. Have the "Investimento" and you give money to someone so that you believe in your effort, and time spent, both in a project when I work.
+  "Translated": "DeltaAlpha0" (It is and a word in a very unusual way, for not knowing the context makes it a little difficult, but the translation is direct from English to Portuguese.)
+}
+
+{
+  "Internal": "Minors",
+  "Context": "Rating option for Pixiv",
+  "Translate Me": "Menores", (You can use "Minors" instead of "Minors", giving reinforcement because the word itself is not very enlightening)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "More",
+  "Translate Me": "Mais / Mostrar Mais", (The translation of More and "Mais", however when referring to showing more content and better applied with "Mostrar Mais / Show More" which gives a more complete meaning
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Must select a login profile",
+  "Translate Me": "Você deve selecionar um perfil de Login",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "New",
+  "Translate Me": "Novo",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "New Profile",
+  "Translate Me": "Novo Perfil",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "No",
+  "Translate Me": "Não",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "No Free Download",
+  "Context": "DeviantArt option",
+  "Translate Me": "Sem download gratuito",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "No login found",
+  "Translate Me": "Nenhum Login foi Encontrado",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "No websites selected",
+  "Translate Me": "Nenhum website selecionado",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "None",
+  "Translate Me": "Nenhum",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Not Logged In",
+  "Translate Me": "Não Logado",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Split Additional File Info",
+  "Translate Me": "Nem todos os sites oferencem suporte a arquivos adicionais. Isto dividirá o envio em novos envios para os websites abaixo.",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Notify",
+  "Context": "Common website option. Whether or not to notify watchers (DA, IB, Weasyl)",
+  "Translate Me": "Notifique / Me Notifique / Notificar", (Notifique is the word to the letter translated, it gives meaning but to nothing, it seems incomplete. "Me Notifique" in Portuguese gives a more complete meaning since it is directed at someone. "Notificar" is a way that seems too crude, but gives the idea nonetheless)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Nudity",
+  "Translate Me": "Nudez",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Original Work",
+  "Context": "Website option",
+  "Translate Me": "Trabalho Original",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Overwrite Default",
+  "Context": "A checkbox option for tags",
+  "Translate Me": "Sobrescrever o Padrão",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Password",
+  "Translate Me": "Senha",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Patrons Only",
+  "Translate Me": "Apenas Patrons",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Performance",
+  "Translate Me": "Performance", (Ironically and the same thing that in Portuguese there is another word to translate, but it gives a different idea than planned)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Post",
+  "Context": "Post/Send/Upload submission",
+  "Translate Me": "Postar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Preview",
+  "Translate Me": "Pré-Visualização", (The term "Preview" in Portuguese is still accepted in Portuguese but it is a little better)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Profanity",
+  "Translate Me": "Profano / Blasfêmia / Afronta", (Both are correct) (However Blasfêmia has a greater impact bought with Profano) (Both have a more religious meaning, the term "Afronta" and something more offensive, humiliating)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Profile",
+  "Translate Me": "Perfil",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Public",
+  "Context": "Website option",
+  "Translate Me": "Público",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Queue",
+  "Translate Me": "Fila",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Racism",
+  "Translate Me": "Racismo",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Rating",
+  "Context": "Content rating of submission",
+  "Translate Me": "Nota",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Rating missing",
+  "Translate Me": "Falta de Classifícação",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Recent",
+  "Translate Me": "Recente",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Reference",
+  "Translate Me": "Referência",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Rename",
+  "Translate Me": "Renomear",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Reorder",
+  "Translate Me": "Reorganizar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Requires",
+  "Translate Me": "Requer",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Reset",
+  "Translate Me": "Reiniciar / Redefinir", ("Reiniciar" has the effect of, for example: Shutting down the computer and turning it on again. Already "Redefinir" and equivalent to clearing data
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Reset Cookies",
+  "Translate Me": "Redefinir Cookies",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Reupload better quality image",
+  "Translate Me": "Reenviar imagem em melhor qualidade",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Save",
+  "Context": "Save/store submission for posting",
+  "Translate Me": "Salvar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Save To Template",
+  "Translate Me": "Salvar para Modelo", (Uncommon but certain)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Schedule",
+  "Context": "Button text to schedule a submission to post at a certain time",
+  "Translate Me": "Agendar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Scraps",
+  "Translate Me": "Recados", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Select All",
+  "Translate Me": "Selecionar Tudo",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Select a Login Profile",
+  "Translate Me": "Selecione seu Perfil de Login",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "login-profile-d2",
+  "Translate Me": "Selecionar um Perfil de login em qualquer Submission, O fará postar apenas nas contas do perfil.",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Separate with commas",
+  "Translate Me": "Separe com vírgulas",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Settings",
+  "Translate Me": "Configurações",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Sexual Content",
+  "Context": "A checkbox for Pixiv (maybe DA) options that spedcifies if the content has sexual content",
+  "Translate Me": "Conteúdo Sexual",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Shortcuts",
+  "Context": "Text for a button that shows description help and shortcuts",
+  "Translate Me": "Atalhos",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Show Queue",
+  "Translate Me": "Mostrar Fila",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Sketch",
+  "Translate Me": "Esboço",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Some",
+  "Translate Me": "Alguns / Algumas", (Honestly depends on the context)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Source URL",
+  "Context": "e621 website option",
+  "Translate Me": "URL do Site",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Species",
+  "Context": "FurAffinity species category option",
+  "Translate Me": "Espécies",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Split Additional Files Into New Submissions",
+  "Translate Me": "Dividir arquivos adicionais em uma nova Submission",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Spoiler Warning",
+  "Translate Me": "Aviso de Spoiler", (Discord?)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Status",
+  "Context": "FurryNetwork website option to denote status of submission",
+  "Translate Me": "Status", (Same as in Portuguese)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Submission",
+  "Translate Me": "Submission / Documentos", (I don't recommend the translation)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Submit",
+  "Translate Me": "Enviar",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Success",
+  "Translate Me": "Sucesso",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Tagging Permissions",
+  "Translate Me": "Permissões de Tag",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Tags",
+  "Context": "Section header for Tag section",
+  "Translate Me": "Tags", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Default Tag Tooltip",
+  "Translate Me": "Tags que serão enviadas para todos os sites, a menos que seja substituída",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Template",
+  "Translate Me": "Modelo / Template", (Both are correct)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Templates",
+  "Translate Me": "Modelos / Templates",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Terms of Use",
+  "Translate Me": "Termos de Uso",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Theme",
+  "Context": "Generic website option",
+  "Translate Me": "Tema",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Default Description Tooltip",
+  "Translate Me": "Esta descrição será utilizada para todos os sites, a menos que seja substituída",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Thumbnail",
+  "Translate Me": "Miniatura", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Time Between Posts",
+  "Translate Me": "Tempo entre as postagens",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Time Taken",
+  "Translate Me": "Tempo Gasto",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Title",
+  "Context": "Title of a submission",
+  "Translate Me": "Título",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Unauthorize",
+  "Context": "To revoke access to an authorized website (essentially to logout)",
+  "Translate Me": "Não Autorizado",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Unlisted",
+  "Context": "FurryNetwork (maybe SoFurry) visibility option",
+  "Translate Me": "Não Listado",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Additional Files Help",
+  "Translate Me": "Envie arquivos adicionais com este documento / Envie arquivos adicionais com este submission", (It doesn't make much sense in Portuguese)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Use Title",
+  "Context": "Tumblr website option to display the title",
+  "Translate Me": "Use o Título", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Use a Creative Commons license",
+  "Translate Me": "Use a Lincença Creative Commons", (I do not recommend translating this license)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Username",
+  "Translate Me": "Nome de Usuário",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "View",
+  "Translate Me": "Ver", (Depending on the context, you can vary)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Viewing Permissions",
+  "Translate Me": "Permissão de Visualização",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Viewing Restrictions",
+  "Translate Me": "Restrições de visualização",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Violence",
+  "Translate Me": "Violência", (Depending on the context, you can vary)
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Website Options",
+  "Translate Me": "Opções do Site",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Website Rules",
+  "Translate Me": "Regras do Site",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Websites",
+  "Translate Me": "Sites",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "login-profile-title",
+  "Translate Me": "O que é um Perfil de Login?",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Yes",
+  "Translate Me": "Sim",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Does not support file format",
+  "Translate Me": "O {{website}} não suporta o formato do arquivo: {{value}}",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Max file size",
+  "Translate Me": "O {{website}} não suporta arquivos maiores que {{value}}",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Does not support rating",
+  "Translate Me": "O {{website}} não suporta a avaliação: {{value}}",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Options are incomplete",
+  "Translate Me": "as opções do{{website}} estão incompletas", 
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Requires minimum tags",
+  "Translate Me": "O {{website}} requer, pelo menos {{value}} tags",
+  "Translated": "DeltaAlpha0"
+}
+
+{
+  "Internal": "Max description length",
+  "Translate Me": "O {{website}} suporta um comprimento de descrição de: {{value}} palavras",
+  "Translated": "DeltaAlpha0"
+}
+
+
+Last Edit> PT-BR 10-Nov-2020 = 01:50
+Ultima Edição> PT-BR 10-Nov-2020 = 01:50
+Twitter: @DeltaAlpha0
+Discord: Delta Alpha #0001
